@@ -1,0 +1,1 @@
+console.log("NO CLASS BELAJAR ASYNC");
