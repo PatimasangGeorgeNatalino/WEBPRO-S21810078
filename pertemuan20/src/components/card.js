@@ -1,14 +1,15 @@
-import React from 'react';
+  
+import react from 'react'
 
-const Card = (props) => {
-    return(
-    <div className="card-container">
-        <p>{props.name}</p>
-        <p>{props.institution}</p>
-        <p>{props.address}</p>
-        <p>{props.phoneNumber}</p>
-    </div>
-    );
-};
+const Card = ({name, institution, address, phone}) =>{
+    return (
+        <div className="card-container">
+            <p>{name}</p>
+            <p>{institution}</p>
+            <p>{address}</p>
+            <p>{phone}</p>
+        </div>
+    )
+}
 
 export default Card;
